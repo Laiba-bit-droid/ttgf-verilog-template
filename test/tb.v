@@ -3,12 +3,6 @@
 
 module tb ();
 
-  initial begin
-    \$dumpfile("tb.vcd");
-    \$dumpvars(0, tb);
-    #1;
-  end
-
   reg clk;
   reg rst_n;
   reg ena;
